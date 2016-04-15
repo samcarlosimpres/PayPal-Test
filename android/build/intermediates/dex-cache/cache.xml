@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/samuel/React/newpay/android/app/build/intermediates/exploded-aar/newpay/react-native-paypal/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="043a955828155611bc431f9bcac3aa3b85ad4e41">
+        <dex dex="/home/samuel/React/newpay/android/app/build/intermediates/pre-dexed/debug/classes-65a4e86b0e9e495c8155550d4ee6d5d98bc091b5.jar" />
+    </item>
+
+</items>
