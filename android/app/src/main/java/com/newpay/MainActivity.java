@@ -43,4 +43,14 @@ public class MainActivity extends ReactActivity {
             new PayPalPackage(this, PAY_PAL_REQUEST_ID)
         );
     }
+
+    @Override
+    public void onActivityResult(final int requestCode, final int resultCode, final Intent data) {
+       super.onActivityResult(requestCode, resultCode, data);
+       if (requestCode == PAY_PAL_REQUEST_ID) {
+           payPalPackage.handleActivityResult(requestCode, resultCode, data); // <--
+       } else {
+           otherModulesHandlers(requestCode, resultCode, data);
+       }
+    }
 }
